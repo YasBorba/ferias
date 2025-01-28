@@ -1,0 +1,29 @@
+.barra{
+    position: fixed;
+    background-color: #489DB7;
+    height: 100%;
+    width: 300px;
+    padding-top: 40px;
+}
+
+.barra h1{
+    color: #ffffff; /
+	font-size: 32px; 
+	text-align: center; 
+	margin-top: 20px; 
+	margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bot1{
+    padding: 40px;
+    background-color: #CFF0EE;
+}
+.bot2{
+    padding: 20px;
+    background-color: #CFF0EE;
+}
+.bot3{
+    padding: 20px;
+    background-color: #CFF0EE;
+}
