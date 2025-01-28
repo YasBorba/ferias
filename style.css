@@ -1,3 +1,7 @@
+body{
+    background-color: #CFF0EE;
+}
+
 .barra{
     position: fixed;
     background-color: #489DB7;
@@ -7,7 +11,7 @@
 }
 
 .barra h1{
-    color: #ffffff; /
+    color: #ffffff; 
 	font-size: 32px; 
 	text-align: center; 
 	margin-top: 20px; 
@@ -45,4 +49,52 @@
 	background-image: url('img/fundomarjpg.jpg'); /* Imagem de fundo */
 	background-position: center; /* Centraliza a imagem */
 	background-size: cover; /* Cobre todo o banner */
+}
+
+.diario{
+    background-color: #489DB7;
+    color: #ffffff;
+    padding: 10px;
+    width: 350px;
+    border-radius: 7%;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: -20%;
+    font-size: 30px;
+}
+
+#praia {
+    display: flex;
+    align-items: center;
+    background: #e6f7ff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#praia {
+    width: 900px;
+    height: 300px;
+    margin-top: 10%;
+    border-radius: 5px;
+    margin-left: 90px;
+}
+
+#praia img{
+    background-image: url('img/praia.jpg');
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    margin-left: 3%;
+
+}
+
+.descri{
+    margin-left: 30%;
+    font-size:20px ;
+}
+.viagem h1{
+    margin-left: 30%;
+
 }
