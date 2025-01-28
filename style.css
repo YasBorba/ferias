@@ -15,15 +15,34 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.bot1{
-    padding: 40px;
-    background-color: #CFF0EE;
-}
-.bot2{
+.barra button{
     padding: 20px;
     background-color: #CFF0EE;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5%;
+    border: none;
+    align-items: center;
 }
-.bot3{
-    padding: 20px;
-    background-color: #CFF0EE;
+
+.barra img{
+    width: 200px; 
+	height: 250px; 
+	display: block; 
+	position: relative;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.content {
+	position: absolute;
+	left: 300px; 
+	width: calc(100% - 300px); 
+}
+
+.banner{
+    height: 500px; /* Altura fixa do banner */
+	background-image: url('img/fundomarjpg.jpg'); /* Imagem de fundo */
+	background-position: center; /* Centraliza a imagem */
+	background-size: cover; /* Cobre todo o banner */
 }
